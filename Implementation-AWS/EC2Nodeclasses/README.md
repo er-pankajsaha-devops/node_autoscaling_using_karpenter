@@ -58,4 +58,5 @@ An EC2NodeClass defines various attributes for your EC2 instances, such as insta
 ## Conclusion
 EC2NodeClasses simplify AWS-specific node management, allowing you to fine-tune your instances based on your requirements.
 
+### References
 Official Karpenter EC2Nodeclass - [Link](https://karpenter.sh/docs/concepts/nodeclasses/)
