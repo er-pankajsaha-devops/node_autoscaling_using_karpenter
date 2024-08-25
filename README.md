@@ -56,5 +56,7 @@ Karpenter is an open-source project that automates node scaling in Kubernetes cl
 
 Karpenter simplifies node management, improves resource utilization, and enhances cluster efficiency. Happy autoscaling! 🚀
 
+![Architechture](image.png)
+
 ### References
 Official Karpenter documentation [Link](https://karpenter.sh/docs/)
