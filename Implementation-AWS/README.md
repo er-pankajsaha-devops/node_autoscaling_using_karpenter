@@ -273,3 +273,4 @@
         kubectl apply -f karpenter.yaml
         ```
 ## NodePools, EC2nodeclasses & Nodeclaims.
+* [EC2NodeClasses]()
