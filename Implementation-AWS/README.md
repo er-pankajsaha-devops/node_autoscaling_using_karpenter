@@ -1,4 +1,4 @@
-# Karpenter provider for AWS with an existing EKS cluster.
+# 💰Karpenter provider for AWS with an existing EKS cluster.
 
 * We will use an existing EKS cluster
 * You will use existing VPC and subnets

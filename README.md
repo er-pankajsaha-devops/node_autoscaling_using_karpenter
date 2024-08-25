@@ -1,4 +1,4 @@
-# Karpenter: Automatic Node Scaling for Kubernetes
+# 🚀Karpenter: Automatic Node Scaling for Kubernetes
 
 ## Overview
 Optimize Kubernetes cluster resource utilization dynamically using Karpenter.Automatically scale nodes based on demand, ensuring efficient resource allocation.
