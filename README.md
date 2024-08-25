@@ -49,7 +49,8 @@ Karpenter is an open-source project that automates node scaling in Kubernetes cl
    - Requests from workloads for specific node characteristics (e.g., GPU, specialized hardware).
    - Karpenter ensures nodes match these claims.
 
-## Implementation steps - [AWS-EKS cluster with Karpenter](https://github.com/er-pankajsaha-devops/node_autoscaling_using_karpenter/blob/main/Implementation-AWS/README.md)
+## Implementations 
+* [AWS-EKS cluster with Karpenter](https://github.com/er-pankajsaha-devops/node_autoscaling_using_karpenter/blob/main/Implementation-AWS/README.md)
 
 ## Conclusion
 
