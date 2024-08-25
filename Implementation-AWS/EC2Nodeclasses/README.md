@@ -1,4 +1,4 @@
-# Overview
+# Overview - EC2NodeClass
 
 __EC2NodeClasses__ allow you to customize AWS-specific settings for your Kubernetes nodes.Each NodePool can reference an EC2NodeClass, ensuring consistent configurations across your cluster.
 
