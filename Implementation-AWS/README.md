@@ -272,5 +272,7 @@
         kubectl create -f "https://raw.githubusercontent.com/aws/karpenter-provider-aws/v${KARPENTER_VERSION}/pkg/apis/crds/karpenter.sh_nodeclaims.yaml"
         kubectl apply -f karpenter.yaml
         ```
-## NodePools, EC2nodeclasses & Nodeclaims.
-* [EC2NodeClasses]()
+## NodePools, EC2nodeclass & Nodeclaims.
+* [EC2NodeClasses](https://github.com/er-pankajsaha-devops/node_autoscaling_using_karpenter/tree/main/Implementation-AWS/EC2Nodeclasses)
+* [NodePools](https://github.com/er-pankajsaha-devops/node_autoscaling_using_karpenter/tree/main/Implementation-AWS/Nodepools)
+* [Nodeclaims](https://github.com/er-pankajsaha-devops/node_autoscaling_using_karpenter/tree/main/Implementation-AWS/Nodeclaims)
