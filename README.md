@@ -49,27 +49,7 @@ Karpenter is an open-source project that automates node scaling in Kubernetes cl
    - Requests from workloads for specific node characteristics (e.g., GPU, specialized hardware).
    - Karpenter ensures nodes match these claims.
 
-## Deployment Steps
-
-1. **Install Karpenter**:
-   - Deploy Karpenter using Helm:
-     ```bash
-     helm repo add karpenter https://karpenter.sh/charts
-     helm install karpenter karpenter/karpenter --namespace karpenter
-     ```
-
-2. **Configure Scaling Policies**:
-   - Create a KarpenterScalingPolicy CR to define scaling thresholds.
-   - Apply the CR using `kubectl apply -f`.
-
-3. **Label Nodes**:
-   - Label nodes you want Karpenter to manage:
-     ```bash
-     kubectl label nodes <node-name> karpenter.sh/managed=true
-     ```
-
-4. **Verify Autoscaling**:
-   - Deploy workloads with resource requests and observe Karpenter scaling nodes based on demand.
+## Implementation steps - [AWS with Karpenter](https://github.com/er-pankajsaha-devops/node_autoscaling_using_karpenter/blob/main/Implementation-AWS/README.md)
 
 ## Conclusion
 
